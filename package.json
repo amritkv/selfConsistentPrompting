@@ -1,0 +1,27 @@
+{
+  "name": "selfconsistentprompting",
+  "version": "1.0.0",
+  "description": "Self-Consistent AI prompting system",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "self-consistent": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Amrit Kumar Verma - amritkv (er.akverma8@gmail.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/amritkv/selfconsistentprompting#readme",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.111.0",
+    "@google/genai": "^2.12.0",
+    "dotenv": "^17.4.2",
+    "openai": "^6.47.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amritkv/selfconsistentprompting.git"
+  }
+}
